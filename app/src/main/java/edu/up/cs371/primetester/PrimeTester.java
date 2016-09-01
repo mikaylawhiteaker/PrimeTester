@@ -15,18 +15,18 @@ public class PrimeTester {
      */
     public static boolean isPrime(long n) {
         // for now, return a random result
-        boolean flag = false;
+        boolean flag = true;
 
         for(long i = (n-1); i>1; i--){
-            if(n%i != 0){
-                flag = true;
+            if(n%i == 0){
+                flag = false;
             }
         }
 
         if(n == 2){
             flag =  true;
         }
-        else if(n == ''){
+        else if(n == 0){
             flag = false;
         }
 
