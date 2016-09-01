@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 
+
 public class PrimeTesterActivity extends ActionBarActivity {
 
     // instance variables
