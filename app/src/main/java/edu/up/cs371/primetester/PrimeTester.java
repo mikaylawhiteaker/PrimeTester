@@ -23,6 +23,9 @@ public class PrimeTester {
                 flag = false;
             }
         }
+        if(n == 1){
+            flag = false;
+        }
 
         if(n == 2){
             flag =  true;
